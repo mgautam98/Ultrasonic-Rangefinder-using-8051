@@ -44,4 +44,14 @@ HC SR04 Ultrasonic Module works on the principle of SONAR and is designed to mea
 2.  Here, oscillator frequency of AT89S52 (8051) is 11.0592 MHz, then timer frequency of8051 will be 921.6 kHz.
 3.  So, Time required to execute 1 instruction is 1.085 us.
 4.  So, timer gets incremented after 1.085 us time elapse.
-5.  Hence, 
+
+### Procedure
+1.  Initially burn the program to the microcontroller  
+2.  Now give the connections as per the circuit diagram  
+3.  While giving the connections make sure that Vcc of ultrasonic module is connected to5V DC  
+4.  Switch on the board supply  
+5.  Place the obstacle in front the ultrasonic module, now you can observe the distance onLCD.  
+6.  Switch off the board supply  
+
+### Result  
+Using the mechanism of ultrasonic sensor, Interfacing of Ultrasonic module HC-SR04 with8051 Microcontroller was performed successfully and by moving the object to and fro towardsultrasonic module the distance up to 4 meters was measured correctly
